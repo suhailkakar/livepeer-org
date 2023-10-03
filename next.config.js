@@ -52,6 +52,10 @@ module.exports = withPlugins([
             permanent: false,
           },
           {
+          source: '/path',
+          destination: 'livepeer-tv.vercel.app',
+          },
+          {
             source: '/tv',
             destination: 'https://lvpr.tv/?v=7062iaygm8eip421',
             permanent: false,
